@@ -1,4 +1,180 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 8750 4150 1200 1000
+U 5EE928F9
+F0 "LCD" 50
+F1 "LCD.sch" 50
+F2 "D4" I L 8750 4600 50 
+F3 "D5" I L 8750 4700 50 
+F4 "D6" I L 8750 4800 50 
+F5 "D7" I L 8750 4900 50 
+F6 "RS" I L 8750 4250 50 
+F7 "RW" I L 8750 4350 50 
+F8 "E" I L 8750 4450 50 
+F9 "LED" U L 8750 5050 50 
+$EndSheet
+Text GLabel 6250 4600 0    50   BiDi ~ 0
+P6.0
+Text GLabel 6250 4700 0    50   BiDi ~ 0
+P6.1
+Text GLabel 6250 4800 0    50   BiDi ~ 0
+P6.2
+Text GLabel 6250 4900 0    50   BiDi ~ 0
+P6.3
+Wire Wire Line
+	8750 4900 6250 4900
+Text GLabel 6250 4350 0    50   BiDi ~ 0
+P6.4
+Text GLabel 6250 4250 0    50   BiDi ~ 0
+P6.5
+Text GLabel 6250 4450 0    50   BiDi ~ 0
+P6.6
+$Sheet
+S 6500 1550 1200 1000
+U 5EF68F99
+F0 "LED-Treiber" 50
+F1 "LED-Treiber.sch" 50
+F2 "LED_1" I L 6500 1650 50 
+F3 "LED_2" I L 6500 1750 50 
+F4 "LED_3" I L 6500 1850 50 
+F5 "LED_4" I L 6500 2000 50 
+F6 "LED_5" I L 6500 2100 50 
+F7 "LED_6" I L 6500 2200 50 
+F8 "LED_7" I L 6500 2350 50 
+F9 "LED_R" U R 7700 1650 50 
+F10 "LED_G" U R 7700 1750 50 
+F11 "LED_B" U R 7700 1850 50 
+F12 "LED_F1" U R 7700 2000 50 
+F13 "LED_F2" U R 7700 2100 50 
+F14 "LED_F3" U R 7700 2200 50 
+F15 "LED_LCD" U R 7700 2350 50 
+$EndSheet
+Wire Wire Line
+	7700 2350 7900 2350
+Wire Wire Line
+	7900 2350 7900 5050
+Wire Wire Line
+	7900 5050 8750 5050
+Text GLabel 6250 1850 0    50   BiDi ~ 0
+P1.4
+Text GLabel 6250 1750 0    50   BiDi ~ 0
+P1.3
+Text GLabel 6250 1650 0    50   BiDi ~ 0
+P1.2
+Wire Wire Line
+	6500 1650 6250 1650
+Wire Wire Line
+	6250 1750 6500 1750
+Wire Wire Line
+	6500 1850 6250 1850
+Text GLabel 6250 2200 0    50   BiDi ~ 0
+P3.7
+Text GLabel 6250 2100 0    50   BiDi ~ 0
+P3.6
+Text GLabel 6250 2000 0    50   BiDi ~ 0
+P3.5
+Text GLabel 6250 2350 0    50   BiDi ~ 0
+P8.2
+Wire Wire Line
+	6250 2000 6500 2000
+Wire Wire Line
+	6250 2100 6500 2100
+Wire Wire Line
+	6250 2200 6500 2200
+Wire Wire Line
+	6250 2350 6500 2350
+$Sheet
+S 8750 2850 1200 1000
+U 5EFA716B
+F0 "Button_decoder" 50
+F1 "Button_decoder.sch" 50
+F2 "BTN_S0" O L 8750 3000 50 
+F3 "BTN_S1" O L 8750 3100 50 
+F4 "BTN_S2" O L 8750 3200 50 
+F5 "BTN_INT" O L 8750 3300 50 
+F6 "LED_F1" U L 8750 3500 50 
+F7 "LED_F2" U L 8750 3600 50 
+F8 "LED_F3" U L 8750 3700 50 
+$EndSheet
+Wire Wire Line
+	8200 2000 8200 3500
+Wire Wire Line
+	8200 3500 8750 3500
+Wire Wire Line
+	7700 2000 8200 2000
+Wire Wire Line
+	8750 3600 8100 3600
+Wire Wire Line
+	8100 3600 8100 2100
+Wire Wire Line
+	8100 2100 7700 2100
+Wire Wire Line
+	7700 2200 8000 2200
+Wire Wire Line
+	8000 2200 8000 3700
+Wire Wire Line
+	8000 3700 8750 3700
+Text GLabel 6250 3000 0    50   BiDi ~ 0
+P2.2
+Text GLabel 6250 3100 0    50   BiDi ~ 0
+P2.3
+Text GLabel 6250 3200 0    50   BiDi ~ 0
+P2.4
+Text GLabel 6250 3300 0    50   BiDi ~ 0
+P2.0
+$Sheet
+S 8750 1550 1200 1000
+U 5F03A5E7
+F0 "RGB_LED" 50
+F1 "RGB_LED.sch" 50
+F2 "LED_R" U L 8750 1650 50 
+F3 "LED_G" U L 8750 1750 50 
+F4 "LED_B" U L 8750 1850 50 
+$EndSheet
+Wire Wire Line
+	7700 1650 8750 1650
+Wire Wire Line
+	8750 1750 7700 1750
+Wire Wire Line
+	7700 1850 8750 1850
+Wire Wire Line
+	6250 4800 8750 4800
+Wire Wire Line
+	6250 4700 8750 4700
+Wire Wire Line
+	6250 4600 8750 4600
+Wire Wire Line
+	6250 4450 8750 4450
+Wire Wire Line
+	6250 4350 8750 4350
+Wire Wire Line
+	6250 4250 8750 4250
+Wire Wire Line
+	6250 3300 8750 3300
+Wire Wire Line
+	6250 3200 8750 3200
+Wire Wire Line
+	6250 3100 8750 3100
+Wire Wire Line
+	6250 3000 8750 3000
+$Sheet
+S 4750 1550 1200 3600
+U 5F0B42CA
+F0 "Launchpad" 50
+F1 "Launchpad.sch" 50
+$EndSheet
 $EndSCHEMATC
