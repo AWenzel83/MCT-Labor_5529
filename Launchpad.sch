@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -65,7 +65,6 @@ F 3 "" H 4700 5850 50  0001 C CNN
 	4    4700 5850
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 5350 5300
 $Comp
 L power:GND #PWR?
 U 1 1 5F0CDF19
@@ -479,4 +478,8 @@ Wire Wire Line
 	1950 2200 1950 2450
 Wire Wire Line
 	1950 2650 1950 2900
+Text HLabel 5550 5300 2    50   Output ~ 0
+~RST
+Wire Wire Line
+	5550 5300 5350 5300
 $EndSCHEMATC
