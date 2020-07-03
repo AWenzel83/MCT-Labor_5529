@@ -185,8 +185,8 @@ S 2300 5050 1200 500
 U 5EFB1255
 F0 "analog/Fan" 50
 F1 "analog.sch" 50
-F2 "pulse_out" O R 3500 5150 50 
-F3 "PWM_in" I R 3500 5250 50 
+F2 "pulse_out" O R 3500 5250 50 
+F3 "PWM_in" I R 3500 5150 50 
 F4 "analog" U R 3500 5450 50 
 $EndSheet
 Wire Wire Line
