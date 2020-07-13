@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RF_Module:ESP-12E U7
+L MCT_Labor_5529-rescue:ESP-12E-RF_Module U7
 U 1 1 5EFB26CD
 P 3250 2600
 F 0 "U7" H 2750 3350 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manua
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0147
+L MCT_Labor_5529-rescue:+3.3V-power #PWR0147
 U 1 1 5EFB3FB2
 P 3250 1400
 F 0 "#PWR0147" H 3250 1250 50  0001 C CNN
@@ -38,7 +38,7 @@ $EndComp
 Wire Wire Line
 	3250 1400 3250 1800
 $Comp
-L power:GND #PWR0148
+L MCT_Labor_5529-rescue:GND-power #PWR0148
 U 1 1 5EFB4472
 P 3250 3450
 F 0 "#PWR0148" H 3250 3200 50  0001 C CNN
@@ -49,7 +49,7 @@ F 3 "" H 3250 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0149
+L MCT_Labor_5529-rescue:GND-power #PWR0149
 U 1 1 5EFB45D1
 P 1750 6500
 F 0 "#PWR0149" H 1750 6250 50  0001 C CNN
@@ -62,7 +62,7 @@ $EndComp
 Wire Wire Line
 	3250 3450 3250 3300
 $Comp
-L power:+3.3V #PWR0150
+L MCT_Labor_5529-rescue:+3.3V-power #PWR0150
 U 1 1 5EFB57D3
 P 1750 1400
 F 0 "#PWR0150" H 1750 1250 50  0001 C CNN
@@ -73,7 +73,7 @@ F 3 "" H 1750 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C9
+L MCT_Labor_5529-rescue:C_Small-Device C9
 U 1 1 5EFB5E54
 P 1750 3900
 F 0 "C9" V 1700 3750 50  0000 L CNN
@@ -88,7 +88,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 4000 1750 6500
 $Comp
-L Switch:SW_Push SW1
+L MCT_Labor_5529-rescue:SW_Push-Switch SW1
 U 1 1 5EFB889C
 P 1950 5150
 F 0 "SW1" H 1900 5250 50  0000 R CNN
@@ -105,7 +105,7 @@ TX_out
 Wire Wire Line
 	3850 2100 6500 2100
 $Comp
-L power:GND #PWR0151
+L MCT_Labor_5529-rescue:GND-power #PWR0151
 U 1 1 5EFBC55A
 P 1950 6500
 F 0 "#PWR0151" H 1950 6250 50  0001 C CNN
@@ -116,7 +116,7 @@ F 3 "" H 1950 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R28
+L MCT_Labor_5529-rescue:R_Small-Device R28
 U 1 1 5EFBC7DF
 P 1950 1750
 F 0 "R28" V 1900 1550 50  0000 L CNN
@@ -127,7 +127,7 @@ F 3 "~" H 1950 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0152
+L MCT_Labor_5529-rescue:+3.3V-power #PWR0152
 U 1 1 5EFBD06D
 P 1950 1400
 F 0 "#PWR0152" H 1950 1250 50  0001 C CNN
@@ -149,7 +149,7 @@ Connection ~ 1950 2200
 Wire Wire Line
 	1950 5350 1950 6500
 $Comp
-L Switch:SW_Push SW2
+L MCT_Labor_5529-rescue:SW_Push-Switch SW2
 U 1 1 5EFC6935
 P 2150 5150
 F 0 "SW2" H 2100 5250 50  0000 R CNN
@@ -160,7 +160,7 @@ F 3 "~" H 2150 5350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0153
+L MCT_Labor_5529-rescue:GND-power #PWR0153
 U 1 1 5EFC693B
 P 2150 6500
 F 0 "#PWR0153" H 2150 6250 50  0001 C CNN
@@ -175,7 +175,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 2000 3850 2000
 $Comp
-L Device:R_Small R29
+L MCT_Labor_5529-rescue:R_Small-Device R29
 U 1 1 5EFC7DDD
 P 2150 1750
 F 0 "R29" V 2100 1550 50  0000 L CNN
@@ -186,7 +186,7 @@ F 3 "~" H 2150 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0154
+L MCT_Labor_5529-rescue:+3.3V-power #PWR0154
 U 1 1 5EFC8779
 P 2150 1400
 F 0 "#PWR0154" H 2150 1250 50  0001 C CNN
@@ -199,7 +199,7 @@ $EndComp
 Wire Wire Line
 	2150 1400 2150 1650
 $Comp
-L Device:R_Small R32
+L MCT_Labor_5529-rescue:R_Small-Device R32
 U 1 1 5EFCB446
 P 4100 1750
 F 0 "R32" V 4050 1550 50  0000 L CNN
@@ -210,7 +210,7 @@ F 3 "~" H 4100 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0155
+L MCT_Labor_5529-rescue:+3.3V-power #PWR0155
 U 1 1 5EFCB44D
 P 4100 1400
 F 0 "#PWR0155" H 4100 1250 50  0001 C CNN
@@ -227,7 +227,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 1850 4100 2200
 $Comp
-L Device:R_Small R33
+L MCT_Labor_5529-rescue:R_Small-Device R33
 U 1 1 5EFCE4CD
 P 4100 3300
 F 0 "R33" V 4050 3100 50  0000 L CNN
@@ -238,7 +238,7 @@ F 3 "~" H 4100 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0156
+L MCT_Labor_5529-rescue:GND-power #PWR0156
 U 1 1 5EFCE9EA
 P 4100 3450
 F 0 "#PWR0156" H 4100 3200 50  0001 C CNN
@@ -261,7 +261,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 2000 1400 2000
 $Comp
-L HS-Wismar:XBee_S3 X1
+L MCT_Labor_5529-rescue:XBee_S3-HS-Wismar X1
 U 1 1 5EFB500B
 P 4550 5600
 F 0 "X1" H 6350 6750 50  0000 R CNN
@@ -285,7 +285,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 2300 3850 2300
 $Comp
-L power:GND #PWR0157
+L MCT_Labor_5529-rescue:GND-power #PWR0157
 U 1 1 5EFC0DA6
 P 4750 6500
 F 0 "#PWR0157" H 4750 6250 50  0001 C CNN
@@ -300,7 +300,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 5500 4650 5500
 $Comp
-L power:+3.3V #PWR0158
+L MCT_Labor_5529-rescue:+3.3V-power #PWR0158
 U 1 1 5EFC1D3A
 P 4750 1400
 F 0 "#PWR0158" H 4750 1250 50  0001 C CNN
@@ -358,7 +358,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 5000 2650 5000
 $Comp
-L power:GND #PWR0159
+L MCT_Labor_5529-rescue:GND-power #PWR0159
 U 1 1 5EFC7534
 P 2350 6500
 F 0 "#PWR0159" H 2350 6250 50  0001 C CNN
@@ -369,7 +369,7 @@ F 3 "" H 2350 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R31
+L MCT_Labor_5529-rescue:R_Small-Device R31
 U 1 1 5EFC7A8E
 P 2350 6350
 F 0 "R31" H 2409 6396 50  0000 L CNN
@@ -380,7 +380,7 @@ F 3 "~" H 2350 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small D11
+L MCT_Labor_5529-rescue:LED_Small-Device D11
 U 1 1 5EFC8488
 P 2350 6050
 F 0 "D11" V 2396 5980 50  0000 R CNN
@@ -414,7 +414,7 @@ Connection ~ 2350 2000
 Wire Wire Line
 	2350 2000 2650 2000
 $Comp
-L Device:D_Schottky_Small D10
+L MCT_Labor_5529-rescue:D_Schottky_Small-Device D10
 U 1 1 5F596A7F
 P 1500 2000
 F 0 "D10" H 1500 2115 50  0000 C CNN
@@ -434,7 +434,7 @@ Wire Wire Line
 	2350 4100 2350 5100
 Connection ~ 2350 5100
 $Comp
-L Device:R_Small R30
+L MCT_Labor_5529-rescue:R_Small-Device R30
 U 1 1 5F5A8C0A
 P 2350 1750
 F 0 "R30" V 2300 1550 50  0000 L CNN
@@ -445,7 +445,7 @@ F 3 "~" H 2350 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0160
+L MCT_Labor_5529-rescue:+3.3V-power #PWR0160
 U 1 1 5F5A8C10
 P 2350 1400
 F 0 "#PWR0160" H 2350 1250 50  0001 C CNN
@@ -460,7 +460,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 1850 2350 2000
 $Comp
-L Connector:Conn_01x04_Male J3
+L MCT_Labor_5529-rescue:Conn_01x04_Male-Connector J3
 U 1 1 5EFDB3FD
 P 5900 1650
 F 0 "J3" H 6008 1839 50  0000 C CNN
@@ -471,7 +471,7 @@ F 3 "~" H 5900 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0161
+L MCT_Labor_5529-rescue:+3.3V-power #PWR0161
 U 1 1 5EFE8401
 P 6200 1400
 F 0 "#PWR0161" H 6200 1250 50  0001 C CNN
@@ -486,7 +486,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 1750 6100 1750
 $Comp
-L power:GND #PWR0162
+L MCT_Labor_5529-rescue:GND-power #PWR0162
 U 1 1 5EFEB0C6
 P 6200 2400
 F 0 "#PWR0162" H 6200 2150 50  0001 C CNN
@@ -501,7 +501,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 1850 6100 1850
 $Comp
-L Device:C_Small C10
+L MCT_Labor_5529-rescue:C_Small-Device C10
 U 1 1 5EFED216
 P 5650 1700
 F 0 "C10" V 5600 1550 50  0000 L CNN
@@ -512,7 +512,7 @@ F 3 "~" H 5650 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0163
+L MCT_Labor_5529-rescue:+3.3V-power #PWR0163
 U 1 1 5EFEE6C3
 P 5650 1400
 F 0 "#PWR0163" H 5650 1250 50  0001 C CNN
@@ -523,7 +523,7 @@ F 3 "" H 5650 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0164
+L MCT_Labor_5529-rescue:GND-power #PWR0164
 U 1 1 5EFF0343
 P 5650 2400
 F 0 "#PWR0164" H 5650 2150 50  0001 C CNN
@@ -538,7 +538,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 1600 5650 1400
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J4
+L MCT_Labor_5529-rescue:Conn_02x04_Odd_Even-Connector_Generic J4
 U 1 1 5EFF7765
 P 7150 2000
 F 0 "J4" H 7200 2225 50  0000 C CNN

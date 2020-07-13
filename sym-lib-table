@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MCT_Labor_5529-rescue)(type Legacy)(uri ${KIPRJMOD}/MCT_Labor_5529-rescue.lib)(options "")(descr ""))
+)

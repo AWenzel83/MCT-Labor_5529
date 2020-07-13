@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# MCT_Labor_5529-rescue_+3.3V-power
+# +3.3V-power
 #
-DEF MCT_Labor_5529-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MCT_Labor_5529-rescue_+3.3V-power" 0 140 50 H V C CNN
+F1 "+3.3V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_+5V-power
+# +5V-power
 #
-DEF MCT_Labor_5529-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+DEF +5V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MCT_Labor_5529-rescue_+5V-power" 0 140 50 H V C CNN
+F1 "+5V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_+BATT-power
+# +BATT-power
 #
-DEF MCT_Labor_5529-rescue_+BATT-power #PWR 0 0 Y Y 1 F P
+DEF +BATT-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MCT_Labor_5529-rescue_+BATT-power" 0 140 50 H V C CNN
+F1 "+BATT-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +46,11 @@ X +BATT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_74148-74xx_IEEE
+# 74148-74xx_IEEE
 #
-DEF MCT_Labor_5529-rescue_74148-74xx_IEEE U 0 30 Y Y 1 F N
+DEF 74148-74xx_IEEE U 0 30 Y Y 1 F N
 F0 "U" 350 600 50 H V C CNN
-F1 "MCT_Labor_5529-rescue_74148-74xx_IEEE" 300 -550 50 H V C CNN
+F1 "74148-74xx_IEEE" 300 -550 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -75,11 +75,11 @@ X S0 9 600 300 300 L 50 50 1 1 O I
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_74HCT595-74xx
+# 74HCT595-74xx
 #
-DEF MCT_Labor_5529-rescue_74HCT595-74xx U 0 20 Y Y 1 F N
+DEF 74HCT595-74xx U 0 20 Y Y 1 F N
 F0 "U" -300 550 50 H V C CNN
-F1 "MCT_Labor_5529-rescue_74HCT595-74xx" -300 -650 50 H V C CNN
+F1 "74HCT595-74xx" -300 -650 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -110,11 +110,11 @@ X QH' 9 400 -500 100 L 50 50 1 0 O
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_74LS138-74xx
+# 74LS138-74xx
 #
-DEF MCT_Labor_5529-rescue_74LS138-74xx U 0 40 Y Y 1 L N
+DEF 74LS138-74xx U 0 40 Y Y 1 L N
 F0 "U" -300 450 50 H V C CNN
-F1 "MCT_Labor_5529-rescue_74LS138-74xx" -300 -550 50 H V C CNN
+F1 "74LS138-74xx" -300 -550 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -141,11 +141,11 @@ X O6 9 500 -300 200 L 50 50 1 0 O V
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_BAT54C-Diode
+# BAT54C-Diode
 #
-DEF MCT_Labor_5529-rescue_BAT54C-Diode D 0 40 Y Y 1 F N
+DEF BAT54C-Diode D 0 40 Y Y 1 F N
 F0 "D" 25 -150 50 H V L CNN
-F1 "MCT_Labor_5529-rescue_BAT54C-Diode" -250 125 50 H V L CNN
+F1 "BAT54C-Diode" -250 125 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 75 125 50 H I L CNN
 F3 "" -80 0 50 H I C CNN
 $FPLIST
@@ -174,11 +174,11 @@ X ~ 3 0 -200 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_BAT54S-Diode
+# BAT54S-Diode
 #
-DEF MCT_Labor_5529-rescue_BAT54S-Diode D 0 40 Y Y 1 F N
+DEF BAT54S-Diode D 0 40 Y Y 1 F N
 F0 "D" 25 -150 50 H V L CNN
-F1 "MCT_Labor_5529-rescue_BAT54S-Diode" -250 125 50 H V L CNN
+F1 "BAT54S-Diode" -250 125 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 75 125 50 H I L CNN
 F3 "" -120 0 50 H I C CNN
 $FPLIST
@@ -207,11 +207,11 @@ X ~ 3 0 -200 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_BSS138-Transistor_FET
+# BSS138-Transistor_FET
 #
-DEF MCT_Labor_5529-rescue_BSS138-Transistor_FET Q 0 20 Y N 1 F N
+DEF BSS138-Transistor_FET Q 0 20 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "MCT_Labor_5529-rescue_BSS138-Transistor_FET" 200 0 50 H V L CNN
+F1 "BSS138-Transistor_FET" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -238,11 +238,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_Battery_Cell-Device
+# Battery_Cell-Device
 #
-DEF MCT_Labor_5529-rescue_Battery_Cell-Device BT 0 0 N N 1 F N
+DEF Battery_Cell-Device BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "MCT_Labor_5529-rescue_Battery_Cell-Device" 100 0 50 H V L CNN
+F1 "Battery_Cell-Device" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -257,11 +257,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_C_Small-Device
+# C_Small-Device
 #
-DEF MCT_Labor_5529-rescue_C_Small-Device C 0 10 N N 1 F N
+DEF C_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "MCT_Labor_5529-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F1 "C_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -275,11 +275,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_Conn_01x01_Female-Connector
+# Conn_01x01_Female-Connector
 #
-DEF MCT_Labor_5529-rescue_Conn_01x01_Female-Connector J 0 40 Y N 1 F N
+DEF Conn_01x01_Female-Connector J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "MCT_Labor_5529-rescue_Conn_01x01_Female-Connector" 0 -100 50 H V C CNN
+F1 "Conn_01x01_Female-Connector" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -292,11 +292,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_Conn_01x04_Male-Connector
+# Conn_01x04_Male-Connector
 #
-DEF MCT_Labor_5529-rescue_Conn_01x04_Male-Connector J 0 40 Y N 1 F N
+DEF Conn_01x04_Male-Connector J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "MCT_Labor_5529-rescue_Conn_01x04_Male-Connector" 0 -300 50 H V C CNN
+F1 "Conn_01x04_Male-Connector" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -318,11 +318,11 @@ X Pin_4 4 200 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_Conn_02x04_Odd_Even-Connector_Generic
+# Conn_02x04_Odd_Even-Connector_Generic
 #
-DEF MCT_Labor_5529-rescue_Conn_02x04_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_02x04_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "MCT_Labor_5529-rescue_Conn_02x04_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
+F1 "Conn_02x04_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -349,11 +349,11 @@ X Pin_8 8 300 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_Conn_02x05_Odd_Even-Connector_Generic
+# Conn_02x05_Odd_Even-Connector_Generic
 #
-DEF MCT_Labor_5529-rescue_Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "MCT_Labor_5529-rescue_Conn_02x05_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
+F1 "Conn_02x05_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -384,11 +384,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_D_Schottky_Small-Device
+# D_Schottky_Small-Device
 #
-DEF MCT_Labor_5529-rescue_D_Schottky_Small-Device D 0 10 N N 1 F N
+DEF D_Schottky_Small-Device D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "MCT_Labor_5529-rescue_D_Schottky_Small-Device" -280 -80 50 H V L CNN
+F1 "D_Schottky_Small-Device" -280 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -406,11 +406,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_ESP-12E-RF_Module
+# ESP-12E-RF_Module
 #
-DEF MCT_Labor_5529-rescue_ESP-12E-RF_Module U 0 20 Y Y 1 F N
+DEF ESP-12E-RF_Module U 0 20 Y Y 1 F N
 F0 "U" -500 750 50 H V L CNN
-F1 "MCT_Labor_5529-rescue_ESP-12E-RF_Module" 500 750 50 H V R CNN
+F1 "ESP-12E-RF_Module" 500 750 50 H V R CNN
 F2 "RF_Module:ESP-12E" 0 0 50 H I C CNN
 F3 "" -350 100 50 H I C CNN
 $FPLIST
@@ -443,11 +443,11 @@ X CS0 9 -600 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_GND-power
+# GND-power
 #
-DEF MCT_Labor_5529-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "MCT_Labor_5529-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -456,11 +456,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_Jumper_3_Bridged12-Jumper
+# Jumper_3_Bridged12-Jumper
 #
-DEF MCT_Labor_5529-rescue_Jumper_3_Bridged12-Jumper JP 0 0 Y N 1 F N
+DEF Jumper_3_Bridged12-Jumper JP 0 0 Y N 1 F N
 F0 "JP" -100 -100 50 H V C CNN
-F1 "MCT_Labor_5529-rescue_Jumper_3_Bridged12-Jumper" 0 110 50 H V C CNN
+F1 "Jumper_3_Bridged12-Jumper" 0 110 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -480,11 +480,11 @@ X B 3 250 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_LED_RGBA-Device
+# LED_RGBA-Device
 #
-DEF MCT_Labor_5529-rescue_LED_RGBA-Device D 0 0 Y N 1 F N
+DEF LED_RGBA-Device D 0 0 Y N 1 F N
 F0 "D" 0 370 50 H V C CNN
-F1 "MCT_Labor_5529-rescue_LED_RGBA-Device" 0 -350 50 H V C CNN
+F1 "LED_RGBA-Device" 0 -350 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
@@ -531,11 +531,11 @@ X A 4 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_LED_Small-Device
+# LED_Small-Device
 #
-DEF MCT_Labor_5529-rescue_LED_Small-Device D 0 10 N N 1 F N
+DEF LED_Small-Device D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "MCT_Labor_5529-rescue_LED_Small-Device" -175 -100 50 H V L CNN
+F1 "LED_Small-Device" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -554,11 +554,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_LM75B-Sensor_Temperature
+# LM75B-Sensor_Temperature
 #
-DEF MCT_Labor_5529-rescue_LM75B-Sensor_Temperature U 0 40 Y Y 1 F N
+DEF LM75B-Sensor_Temperature U 0 40 Y Y 1 F N
 F0 "U" -250 450 50 H V C CNN
-F1 "MCT_Labor_5529-rescue_LM75B-Sensor_Temperature" 0 450 50 H V L CNN
+F1 "LM75B-Sensor_Temperature" 0 450 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -588,11 +588,11 @@ X +Vs 8 0 500 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_MCP73831-2-OT-Battery_Management
+# MCP73831-2-OT-Battery_Management
 #
-DEF MCT_Labor_5529-rescue_MCP73831-2-OT-Battery_Management U 0 40 Y Y 1 F N
+DEF MCP73831-2-OT-Battery_Management U 0 40 Y Y 1 F N
 F0 "U" -300 250 50 H V L CNN
-F1 "MCT_Labor_5529-rescue_MCP73831-2-OT-Battery_Management" 50 250 50 H V L CNN
+F1 "MCP73831-2-OT-Battery_Management" 50 250 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 50 -250 50 H I L CIN
 F3 "" -150 -50 50 H I C CNN
 $FPLIST
@@ -608,11 +608,11 @@ X PROG 5 -400 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_Micro_SD_Card_Det-Connector
+# Micro_SD_Card_Det-Connector
 #
-DEF MCT_Labor_5529-rescue_Micro_SD_Card_Det-Connector J 0 40 Y Y 1 F N
+DEF Micro_SD_Card_Det-Connector J 0 40 Y Y 1 F N
 F0 "J" -650 700 50 H V C CNN
-F1 "MCT_Labor_5529-rescue_Micro_SD_Card_Det-Connector" 650 700 50 H V R CNN
+F1 "Micro_SD_Card_Det-Connector" 650 700 50 H V R CNN
 F2 "" 2050 700 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
@@ -643,11 +643,11 @@ X DET_B 9 -900 -500 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_NRF24L01_Breakout-RF
+# NRF24L01_Breakout-RF
 #
-DEF MCT_Labor_5529-rescue_NRF24L01_Breakout-RF U 0 40 Y Y 1 F N
+DEF NRF24L01_Breakout-RF U 0 40 Y Y 1 F N
 F0 "U" -350 500 50 H V L CNN
-F1 "MCT_Labor_5529-rescue_NRF24L01_Breakout-RF" 150 500 50 H V L CNN
+F1 "NRF24L01_Breakout-RF" 150 500 50 H V L CNN
 F2 "RF_Module:nRF24L01_Breakout" 150 600 50 H I L CIN
 F3 "" 0 -100 50 H I C CNN
 $FPLIST
@@ -671,11 +671,11 @@ X IRQ 8 -500 -300 150 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_RC1602A-Display_Character
+# RC1602A-Display_Character
 #
-DEF MCT_Labor_5529-rescue_RC1602A-Display_Character U 0 20 Y Y 1 F N
+DEF RC1602A-Display_Character U 0 20 Y Y 1 F N
 F0 "U" -250 650 50 H V C CNN
-F1 "MCT_Labor_5529-rescue_RC1602A-Display_Character" 110 650 50 H V L CNN
+F1 "RC1602A-Display_Character" 110 650 50 H V L CNN
 F2 "Display:RC1602A" 100 -800 50 H I C CNN
 F3 "" 100 -100 50 H I C CNN
 $FPLIST
@@ -702,11 +702,11 @@ X DB2 9 -400 0 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_R_Network08-Device
+# R_Network08-Device
 #
-DEF MCT_Labor_5529-rescue_R_Network08-Device RN 0 0 Y N 1 F N
+DEF R_Network08-Device RN 0 0 Y N 1 F N
 F0 "RN" -500 0 50 V V C CNN
-F1 "MCT_Labor_5529-rescue_R_Network08-Device" 400 0 50 V V C CNN
+F1 "R_Network08-Device" 400 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP9" 475 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -756,11 +756,11 @@ X R8 9 300 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_R_POT-Device
+# R_POT-Device
 #
-DEF MCT_Labor_5529-rescue_R_POT-Device RV 0 40 Y N 1 F N
+DEF R_POT-Device RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "MCT_Labor_5529-rescue_R_POT-Device" -100 0 50 V V C CNN
+F1 "R_POT-Device" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -776,11 +776,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_R_POT_TRIM-Device
+# R_POT_TRIM-Device
 #
-DEF MCT_Labor_5529-rescue_R_POT_TRIM-Device RV 0 40 Y N 1 F N
+DEF R_POT_TRIM-Device RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "MCT_Labor_5529-rescue_R_POT_TRIM-Device" -100 0 50 V V C CNN
+F1 "R_POT_TRIM-Device" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -796,11 +796,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_R_Small-Device
+# R_Small-Device
 #
-DEF MCT_Labor_5529-rescue_R_Small-Device R 0 10 N N 1 F N
+DEF R_Small-Device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "MCT_Labor_5529-rescue_R_Small-Device" 30 -40 50 H V L CNN
+F1 "R_Small-Device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -813,11 +813,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_STC3100-HS-Wismar
+# STC3100-HS-Wismar
 #
-DEF MCT_Labor_5529-rescue_STC3100-HS-Wismar U 0 40 Y Y 1 F N
+DEF STC3100-HS-Wismar U 0 40 Y Y 1 F N
 F0 "U" 0 550 50 H V L CNN
-F1 "MCT_Labor_5529-rescue_STC3100-HS-Wismar" 650 550 50 H V R CNN
+F1 "STC3100-HS-Wismar" 650 550 50 H V R CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -833,11 +833,11 @@ X VIN 8 750 250 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_SW_MEC_5G-Switch
+# SW_MEC_5G-Switch
 #
-DEF MCT_Labor_5529-rescue_SW_MEC_5G-Switch SW 0 40 N N 1 F N
+DEF SW_MEC_5G-Switch SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "MCT_Labor_5529-rescue_SW_MEC_5G-Switch" 0 -60 50 H V C CNN
+F1 "SW_MEC_5G-Switch" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 $FPLIST
@@ -855,11 +855,11 @@ X B 4 200 0 100 L 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_SW_Push-Switch
+# SW_Push-Switch
 #
-DEF MCT_Labor_5529-rescue_SW_Push-Switch SW 0 40 N N 1 F N
+DEF SW_Push-Switch SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "MCT_Labor_5529-rescue_SW_Push-Switch" 0 -60 50 H V C CNN
+F1 "SW_Push-Switch" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -872,11 +872,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_SW_SPDT-Switch
+# SW_SPDT-Switch
 #
-DEF MCT_Labor_5529-rescue_SW_SPDT-Switch SW 0 0 Y N 1 F N
+DEF SW_SPDT-Switch SW 0 0 Y N 1 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "MCT_Labor_5529-rescue_SW_SPDT-Switch" 0 -200 50 H V C CNN
+F1 "SW_SPDT-Switch" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -890,11 +890,11 @@ X C 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_Screw_Terminal_01x02-Connector
+# Screw_Terminal_01x02-Connector
 #
-DEF MCT_Labor_5529-rescue_Screw_Terminal_01x02-Connector J 0 40 Y N 1 F N
+DEF Screw_Terminal_01x02-Connector J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "MCT_Labor_5529-rescue_Screw_Terminal_01x02-Connector" 0 -200 50 H V C CNN
+F1 "Screw_Terminal_01x02-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -913,11 +913,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_TPS737xx-HS-Wismar
+# TPS737xx-HS-Wismar
 #
-DEF MCT_Labor_5529-rescue_TPS737xx-HS-Wismar U 0 40 Y Y 1 F N
+DEF TPS737xx-HS-Wismar U 0 40 Y Y 1 F N
 F0 "U" 500 -50 50 H V R CNN
-F1 "MCT_Labor_5529-rescue_TPS737xx-HS-Wismar" 500 400 50 H V R CNN
+F1 "TPS737xx-HS-Wismar" 500 400 50 H V R CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -931,11 +931,11 @@ X GND 6 250 -100 100 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_ULN2003-Transistor_Array
+# ULN2003-Transistor_Array
 #
-DEF MCT_Labor_5529-rescue_ULN2003-Transistor_Array U 0 20 Y Y 1 F N
+DEF ULN2003-Transistor_Array U 0 20 Y Y 1 F N
 F0 "U" 0 625 50 H V C CNN
-F1 "MCT_Labor_5529-rescue_ULN2003-Transistor_Array" 0 550 50 H V C CNN
+F1 "ULN2003-Transistor_Array" 0 550 50 H V C CNN
 F2 "" 50 -550 50 H I L CNN
 F3 "" 100 -200 50 H I C CNN
 $FPLIST
@@ -977,11 +977,11 @@ X COM 9 400 400 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_VBUS-power
+# VBUS-power
 #
-DEF MCT_Labor_5529-rescue_VBUS-power #PWR 0 0 Y Y 1 F P
+DEF VBUS-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MCT_Labor_5529-rescue_VBUS-power" 0 150 50 H V C CNN
+F1 "VBUS-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -992,11 +992,11 @@ X VBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_VCC-power
+# VCC-power
 #
-DEF MCT_Labor_5529-rescue_VCC-power #PWR 0 0 Y Y 1 F P
+DEF VCC-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MCT_Labor_5529-rescue_VCC-power" 0 150 50 H V C CNN
+F1 "VCC-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1007,11 +1007,11 @@ X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_VDD-power
+# VDD-power
 #
-DEF MCT_Labor_5529-rescue_VDD-power #PWR 0 0 Y Y 1 F P
+DEF VDD-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MCT_Labor_5529-rescue_VDD-power" 0 150 50 H V C CNN
+F1 "VDD-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1022,11 +1022,11 @@ X VDD 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_XBee_S3-HS-Wismar
+# XBee_S3-HS-Wismar
 #
-DEF MCT_Labor_5529-rescue_XBee_S3-HS-Wismar X 0 40 Y Y 1 F N
+DEF XBee_S3-HS-Wismar X 0 40 Y Y 1 F N
 F0 "X" 1800 -50 50 H V R CNN
-F1 "MCT_Labor_5529-rescue_XBee_S3-HS-Wismar" 0 -50 50 H V L CNN
+F1 "XBee_S3-HS-Wismar" 0 -50 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1054,11 +1054,11 @@ X ~DTR~/SLEEP_RQ/DIO8 9 -100 200 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# MCT_Labor_5529-rescue_msp-exp430f5529-LP-HS-Wismar
+# msp-exp430f5529-LP-HS-Wismar
 #
-DEF MCT_Labor_5529-rescue_msp-exp430f5529-LP-HS-Wismar U 0 40 Y Y 4 L N
+DEF msp-exp430f5529-LP-HS-Wismar U 0 40 Y Y 4 L N
 F0 "U" 0 0 50 V V L BNN
-F1 "MCT_Labor_5529-rescue_msp-exp430f5529-LP-HS-Wismar" 0 1000 50 V V R BNN
+F1 "msp-exp430f5529-LP-HS-Wismar" 0 1000 50 V V R BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

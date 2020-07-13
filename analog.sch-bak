@@ -19,7 +19,7 @@ U 1 1 5F032368
 P 2300 1900
 F 0 "J10" H 2272 1874 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 2272 1783 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2300 1900 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 2300 1900 50  0001 C CNN
 F 3 "~" H 2300 1900 50  0001 C CNN
 	1    2300 1900
 	1    0    0    -1  

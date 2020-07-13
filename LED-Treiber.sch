@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_Array:ULN2003 U2
+L MCT_Labor_5529-rescue:ULN2003-Transistor_Array U2
 U 1 1 5EF743C0
 P 5400 3600
 F 0 "U2" H 5400 4267 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 5500 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0108
+L MCT_Labor_5529-rescue:+5V-power #PWR0108
 U 1 1 5EF74EA2
 P 6050 2800
 F 0 "#PWR0108" H 6050 2650 50  0001 C CNN
@@ -36,7 +36,7 @@ F 3 "" H 6050 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0109
+L MCT_Labor_5529-rescue:GND-power #PWR0109
 U 1 1 5EF75057
 P 5400 4450
 F 0 "#PWR0109" H 5400 4200 50  0001 C CNN
