@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MBRS120
+D 20V 1A Schottky Barrier Rectifier Diode, SMB
+K diode Schottky
+F https://www.mouser.de/datasheet/2/308/MBRS120T3-D-1381807.pdf
+$ENDCMP
+#
+$CMP TLV61048
+D 28-V Output Voltage Boost Converter with Power Diode and Isolation Switch, SOT-23-6
+K Step-Up DC-DC Converter
+F http://www.ti.com/lit/ds/symlink/tlv61046a.pdf
+$ENDCMP
+#
+#End Doc Library

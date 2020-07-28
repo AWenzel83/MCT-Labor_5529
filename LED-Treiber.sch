@@ -25,17 +25,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 5500 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCT_Labor_5529-rescue:+5V-power #PWR0108
-U 1 1 5EF74EA2
-P 6050 2800
-F 0 "#PWR0108" H 6050 2650 50  0001 C CNN
-F 1 "+5V" H 6065 2973 50  0000 C CNN
-F 2 "" H 6050 2800 50  0001 C CNN
-F 3 "" H 6050 2800 50  0001 C CNN
-	1    6050 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L MCT_Labor_5529-rescue:GND-power #PWR0109
 U 1 1 5EF75057
 P 5400 4450
@@ -64,8 +53,6 @@ Text HLabel 4750 3800 0    50   Input ~ 0
 LED_5
 Text HLabel 4750 3900 0    50   Input ~ 0
 LED_6
-Text HLabel 4750 4000 0    50   Input ~ 0
-LED_7
 Wire Wire Line
 	4750 3400 5000 3400
 Wire Wire Line
@@ -92,8 +79,6 @@ Text HLabel 6200 3800 2    50   UnSpc ~ 0
 LED_F2
 Text HLabel 6200 3900 2    50   UnSpc ~ 0
 LED_F3
-Text HLabel 6200 4000 2    50   UnSpc ~ 0
-LED_LCD
 Wire Wire Line
 	5800 3400 6200 3400
 Wire Wire Line
@@ -108,4 +93,15 @@ Wire Wire Line
 	5800 3900 6200 3900
 Wire Wire Line
 	6200 4000 5800 4000
+$Comp
+L power:+3.3V #PWR015
+U 1 1 5F31B6ED
+P 6050 2800
+F 0 "#PWR015" H 6050 2650 50  0001 C CNN
+F 1 "+3.3V" H 6065 2973 50  0000 C CNN
+F 2 "" H 6050 2800 50  0001 C CNN
+F 3 "" H 6050 2800 50  0001 C CNN
+	1    6050 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -22,7 +22,7 @@ D6
 Text HLabel 4150 4300 0    50   BiDi ~ 0
 D7
 $Comp
-L Device:R_Small R1
+L MCT_Labor_5529-rescue:R_Small-Device R1
 U 1 1 5EEE17BC
 P 4500 3300
 F 0 "R1" V 4450 3150 50  0000 C CNN
@@ -67,7 +67,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 3500 4150 3500
 $Comp
-L Device:R_Small R2
+L MCT_Labor_5529-rescue:R_Small-Device R2
 U 1 1 5EEF033B
 P 4500 3400
 F 0 "R2" V 4450 3250 50  0000 C CNN
@@ -78,7 +78,7 @@ F 3 "~" H 4500 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R3
+L MCT_Labor_5529-rescue:R_Small-Device R3
 U 1 1 5EEF0596
 P 4500 3500
 F 0 "R3" V 4450 3350 50  0000 C CNN
@@ -89,7 +89,7 @@ F 3 "~" H 4500 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R4
+L MCT_Labor_5529-rescue:R_Small-Device R4
 U 1 1 5EEF0900
 P 4500 4000
 F 0 "R4" V 4450 3850 50  0000 C CNN
@@ -100,7 +100,7 @@ F 3 "~" H 4500 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R5
+L MCT_Labor_5529-rescue:R_Small-Device R5
 U 1 1 5EEF0B44
 P 4500 4100
 F 0 "R5" V 4450 3950 50  0000 C CNN
@@ -111,7 +111,7 @@ F 3 "~" H 4500 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R6
+L MCT_Labor_5529-rescue:R_Small-Device R6
 U 1 1 5EEF0D99
 P 4500 4200
 F 0 "R6" V 4450 4050 50  0000 C CNN
@@ -122,7 +122,7 @@ F 3 "~" H 4500 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R7
+L MCT_Labor_5529-rescue:R_Small-Device R7
 U 1 1 5EEF0FCB
 P 4500 4300
 F 0 "R7" V 4450 4150 50  0000 C CNN
@@ -133,7 +133,7 @@ F 3 "~" H 4500 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Display_Character:RC1602A U1
+L MCT_Labor_5529-rescue:RC1602A-Display_Character U1
 U 1 1 5EEE0198
 P 5250 3800
 F 0 "U1" H 5000 3150 50  0000 C CNN
@@ -148,7 +148,7 @@ LED
 Wire Wire Line
 	5650 4000 7250 4000
 $Comp
-L Device:R_Small R8
+L MCT_Labor_5529-rescue:R_Small-Device R8
 U 1 1 5EEF2290
 P 5900 3250
 F 0 "R8" V 5850 3100 50  0000 C CNN
@@ -159,7 +159,7 @@ F 3 "~" H 5900 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT_TRIM RV1
+L MCT_Labor_5529-rescue:R_POT_TRIM-Device RV1
 U 1 1 5EEF4693
 P 6150 3600
 F 0 "RV1" H 6080 3646 50  0000 R CNN
@@ -172,7 +172,7 @@ $EndComp
 Wire Wire Line
 	5650 3600 6000 3600
 $Comp
-L Device:C_Small C1
+L MCT_Labor_5529-rescue:C_Small-Device C1
 U 1 1 5EEF5668
 P 6850 3600
 F 0 "C1" H 6942 3646 50  0000 L CNN
@@ -187,7 +187,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 4100 5650 4100
 $Comp
-L power:+5V #PWR0101
+L MCT_Labor_5529-rescue:+5V-power #PWR0101
 U 1 1 5EEF6265
 P 5250 2850
 F 0 "#PWR0101" H 5250 2700 50  0001 C CNN
@@ -198,7 +198,7 @@ F 3 "" H 5250 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0102
+L MCT_Labor_5529-rescue:+5V-power #PWR0102
 U 1 1 5EEF9DD1
 P 5900 2850
 F 0 "#PWR0102" H 5900 2700 50  0001 C CNN
@@ -209,7 +209,7 @@ F 3 "" H 5900 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0103
+L MCT_Labor_5529-rescue:+5V-power #PWR0103
 U 1 1 5EEFA0DF
 P 6150 2850
 F 0 "#PWR0103" H 6150 2700 50  0001 C CNN
@@ -220,7 +220,7 @@ F 3 "" H 6150 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0104
+L MCT_Labor_5529-rescue:+5V-power #PWR0104
 U 1 1 5EEFA5E3
 P 6850 2850
 F 0 "#PWR0104" H 6850 2700 50  0001 C CNN
@@ -239,7 +239,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 2850 6850 3500
 $Comp
-L power:GND #PWR0105
+L MCT_Labor_5529-rescue:GND-power #PWR0105
 U 1 1 5EEFD6FC
 P 5250 4700
 F 0 "#PWR0105" H 5250 4450 50  0001 C CNN
@@ -250,7 +250,7 @@ F 3 "" H 5250 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0106
+L MCT_Labor_5529-rescue:GND-power #PWR0106
 U 1 1 5EEFE087
 P 6150 4700
 F 0 "#PWR0106" H 6150 4450 50  0001 C CNN
@@ -261,7 +261,7 @@ F 3 "" H 6150 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0107
+L MCT_Labor_5529-rescue:GND-power #PWR0107
 U 1 1 5EEFE62A
 P 6850 4700
 F 0 "#PWR0107" H 6850 4450 50  0001 C CNN
