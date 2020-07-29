@@ -960,7 +960,7 @@ P 9450 1850
 F 0 "L1" V 9640 1850 50  0000 C CNN
 F 1 "3.3u" V 9549 1850 50  0000 C CNN
 F 2 "HS-Wismar:L_Coilcraft_XxL4040_handsolder" H 9450 1850 50  0001 C CNN
-F 3 "~" H 9450 1850 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/597/xal4000-270751.pdf" H 9450 1850 50  0001 C CNN
 	1    9450 1850
 	0    -1   -1   0   
 $EndComp
