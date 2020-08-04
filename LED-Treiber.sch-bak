@@ -65,8 +65,6 @@ Wire Wire Line
 	4750 3800 5000 3800
 Wire Wire Line
 	5000 3900 4750 3900
-Wire Wire Line
-	4750 4000 5000 4000
 Text HLabel 6200 3400 2    50   UnSpc ~ 0
 LED_R
 Text HLabel 6200 3500 2    50   UnSpc ~ 0
@@ -91,8 +89,6 @@ Wire Wire Line
 	5800 3800 6200 3800
 Wire Wire Line
 	5800 3900 6200 3900
-Wire Wire Line
-	6200 4000 5800 4000
 $Comp
 L power:+3.3V #PWR015
 U 1 1 5F31B6ED
