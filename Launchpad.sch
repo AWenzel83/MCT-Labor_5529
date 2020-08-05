@@ -965,9 +965,11 @@ F 3 "https://www.mouser.de/datasheet/2/597/xal4000-270751.pdf" H 9450 1850 50  0
 	0    -1   -1   0   
 $EndComp
 $Comp
-L HS-Wismar:MBRS120 D13
+L MCT_Labor_5529-rescue:MBRS120-HS-Wismar D13
 U 1 1 5F22189B
 P 10050 1850
+AR Path="/5F22189B" Ref="D13"  Part="1" 
+AR Path="/5F0B42CA/5F22189B" Ref="D13"  Part="1" 
 F 0 "D13" H 10050 1633 50  0000 C CNN
 F 1 "MBRS120" H 10050 1724 50  0000 C CNN
 F 2 "Diode_SMD:D_SMB_Handsoldering" H 10050 1675 50  0001 C CNN
@@ -1074,7 +1076,7 @@ F 3 "" H 11000 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HS-Wismar:TLV61048 U13
+L MCT_Labor_5529-rescue:TLV61048-HS-Wismar U13
 U 1 1 5F223F5E
 P 9450 2350
 F 0 "U13" H 9450 2775 50  0000 C CNN
