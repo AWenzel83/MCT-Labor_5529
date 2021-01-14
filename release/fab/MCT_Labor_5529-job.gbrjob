@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.6"
     },
-    "CreationDate":  "2020-08-05T08:53:36+02:00"
+    "CreationDate":  "2020-08-10T13:19:17+02:00"
   },
   "GeneralSpecs":
   {
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "MCT_Labor_5529-F_Cu.gtl",
+      "Path":  "MCT_Labor_5529-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "MCT_Labor_5529-B_Cu.gbl",
+      "Path":  "MCT_Labor_5529-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "MCT_Labor_5529-F_Paste.gtp",
+      "Path":  "MCT_Labor_5529-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "MCT_Labor_5529-B_Paste.gbp",
+      "Path":  "MCT_Labor_5529-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "MCT_Labor_5529-F_SilkS.gto",
+      "Path":  "MCT_Labor_5529-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "MCT_Labor_5529-B_SilkS.gbo",
+      "Path":  "MCT_Labor_5529-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "MCT_Labor_5529-F_Mask.gts",
+      "Path":  "MCT_Labor_5529-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "MCT_Labor_5529-B_Mask.gbs",
+      "Path":  "MCT_Labor_5529-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "MCT_Labor_5529-Edge_Cuts.gm1",
+      "Path":  "MCT_Labor_5529-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }

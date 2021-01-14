@@ -254,12 +254,6 @@ Wire Wire Line
 	4100 2900 3850 2900
 Wire Wire Line
 	4100 2900 4100 3200
-Text HLabel 1250 2000 0    50   Input ~ 0
-~RST
-Wire Wire Line
-	1600 2000 2350 2000
-Wire Wire Line
-	1250 2000 1400 2000
 $Comp
 L MCT_Labor_5529-rescue:XBee_S3-HS-Wismar X1
 U 1 1 5EFB500B
@@ -413,17 +407,6 @@ Wire Wire Line
 Connection ~ 2350 2000
 Wire Wire Line
 	2350 2000 2650 2000
-$Comp
-L MCT_Labor_5529-rescue:D_Schottky_Small-Device D10
-U 1 1 5F596A7F
-P 1500 2000
-F 0 "D10" H 1500 2115 50  0000 C CNN
-F 1 "D_Schottky_Small" H 1500 2116 50  0001 C CNN
-F 2 "Diode_SMD:D_SOD-123" V 1500 2000 50  0001 C CNN
-F 3 "~" V 1500 2000 50  0001 C CNN
-	1    1500 2000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 2700 4250 2700
 Wire Wire Line
