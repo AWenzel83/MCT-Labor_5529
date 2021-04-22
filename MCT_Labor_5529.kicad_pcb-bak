@@ -7126,7 +7126,7 @@
     )
   )
 
-  (gr_text "HS-Wismar, FIW/EuI, 18.01.2021" (at 79.71822 148.47964) (layer F.SilkS)
+  (gr_text "A.Wenzel, HS-Wismar, FIW/EuI, 22.04.2021" (at 83.673 148.185) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 210 50) (end 50 50) (layer Edge.Cuts) (width 0.05) (tstamp 5F0421D0))
