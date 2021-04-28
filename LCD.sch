@@ -13,19 +13,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2100 3550 0    50   BiDi ~ 0
+Text HLabel 1900 3550 0    50   BiDi ~ 0
 D4
-Text HLabel 2100 3650 0    50   BiDi ~ 0
+Text HLabel 1900 3650 0    50   BiDi ~ 0
 D5
-Text HLabel 2100 3750 0    50   BiDi ~ 0
+Text HLabel 1900 3750 0    50   BiDi ~ 0
 D6
-Text HLabel 2100 3850 0    50   BiDi ~ 0
+Text HLabel 1900 3850 0    50   BiDi ~ 0
 D7
-Text HLabel 2100 2850 0    50   Input ~ 0
+Text HLabel 1900 2850 0    50   Input ~ 0
 RS
-Text HLabel 2100 2950 0    50   Input ~ 0
+Text HLabel 1900 2950 0    50   Input ~ 0
 R~W~
-Text HLabel 2100 3050 0    50   Input ~ 0
+Text HLabel 1900 3050 0    50   Input ~ 0
 E
 $Comp
 L MCT_Labor_5529-rescue:RC1602A-Display_Character U1
@@ -50,7 +50,7 @@ F 3 "~" H 4100 3150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 3150 3950 3150
+	3600 3150 3800 3150
 $Comp
 L MCT_Labor_5529-rescue:C_Small-Device C1
 U 1 1 5EEF5668
@@ -82,45 +82,33 @@ $EndComp
 $Comp
 L MCT_Labor_5529-rescue:GND-power #PWR0106
 U 1 1 5EEFE087
-P 4100 4250
-F 0 "#PWR0106" H 4100 4000 50  0001 C CNN
-F 1 "GND" H 4105 4077 50  0000 C CNN
-F 2 "" H 4100 4250 50  0001 C CNN
-F 3 "" H 4100 4250 50  0001 C CNN
-	1    4100 4250
+P 4100 6250
+F 0 "#PWR0106" H 4100 6000 50  0001 C CNN
+F 1 "GND" H 4105 6077 50  0000 C CNN
+F 2 "" H 4100 6250 50  0001 C CNN
+F 3 "" H 4100 6250 50  0001 C CNN
+	1    4100 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L MCT_Labor_5529-rescue:GND-power #PWR0107
 U 1 1 5EEFE62A
-P 4800 4250
-F 0 "#PWR0107" H 4800 4000 50  0001 C CNN
-F 1 "GND" H 4805 4077 50  0000 C CNN
-F 2 "" H 4800 4250 50  0001 C CNN
-F 3 "" H 4800 4250 50  0001 C CNN
-	1    4800 4250
+P 4800 6250
+F 0 "#PWR0107" H 4800 6000 50  0001 C CNN
+F 1 "GND" H 4805 6077 50  0000 C CNN
+F 2 "" H 4800 6250 50  0001 C CNN
+F 3 "" H 4800 6250 50  0001 C CNN
+	1    4800 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3200 4050 3200 4250
 Wire Wire Line
-	4100 4250 4100 3300
+	4100 6250 4100 3300
 Wire Wire Line
-	4800 3250 4800 4250
+	4800 3250 4800 6250
 Wire Wire Line
-	2100 2850 2800 2850
-Wire Wire Line
-	2100 2950 2800 2950
-Wire Wire Line
-	2100 3050 2800 3050
-Wire Wire Line
-	2100 3550 2800 3550
-Wire Wire Line
-	2100 3650 2800 3650
-Wire Wire Line
-	2100 3750 2800 3750
-Wire Wire Line
-	2100 3850 2800 3850
+	1900 3850 2100 3850
 $Comp
 L power:+3.3V #PWR07
 U 1 1 5F2FE6F2
@@ -302,4 +290,105 @@ F 3 "" H 4100 2400 50  0001 C CNN
 	1    4100 2400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Display_Character:RC1602A U15
+U 1 1 608948E5
+P 3200 5550
+F 0 "U15" H 2950 4900 50  0000 C CNN
+F 1 "RC1602A" H 3450 4900 50  0000 C CNN
+F 2 "Display:RC1602A" H 3300 4750 50  0001 C CNN
+F 3 "http://www.raystar-optronics.com/down.php?ProID=18" H 3300 5450 50  0001 C CNN
+	1    3200 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 60895641
+P 3200 6250
+F 0 "#PWR0108" H 3200 6000 50  0001 C CNN
+F 1 "GND" H 3205 6077 50  0000 C CNN
+F 2 "" H 3200 6250 50  0001 C CNN
+F 3 "" H 3200 6250 50  0001 C CNN
+	1    3200 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0119
+U 1 1 60895C26
+P 3200 4850
+F 0 "#PWR0119" H 3200 4700 50  0001 C CNN
+F 1 "+3V3" H 3215 5023 50  0000 C CNN
+F 2 "" H 3200 4850 50  0001 C CNN
+F 3 "" H 3200 4850 50  0001 C CNN
+	1    3200 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5050 2700 5050
+Wire Wire Line
+	2700 5050 2700 2850
+Wire Wire Line
+	2700 2850 2800 2850
+Wire Wire Line
+	2800 5150 2600 5150
+Wire Wire Line
+	2600 5150 2600 2950
+Wire Wire Line
+	2600 2950 2800 2950
+Wire Wire Line
+	2800 5250 2500 5250
+Wire Wire Line
+	2500 5250 2500 3050
+Wire Wire Line
+	2500 3050 2800 3050
+Wire Wire Line
+	2800 5750 2400 5750
+Wire Wire Line
+	2400 5750 2400 3550
+Wire Wire Line
+	2400 3550 2800 3550
+Wire Wire Line
+	2800 5850 2300 5850
+Wire Wire Line
+	2300 5850 2300 3650
+Wire Wire Line
+	2300 3650 2800 3650
+Wire Wire Line
+	2800 5950 2200 5950
+Wire Wire Line
+	2200 5950 2200 3750
+Wire Wire Line
+	2200 3750 2800 3750
+Wire Wire Line
+	1900 2850 2700 2850
+Connection ~ 2700 2850
+Wire Wire Line
+	1900 2950 2600 2950
+Connection ~ 2600 2950
+Wire Wire Line
+	1900 3050 2500 3050
+Connection ~ 2500 3050
+Wire Wire Line
+	1900 3550 2400 3550
+Connection ~ 2400 3550
+Wire Wire Line
+	1900 3650 2300 3650
+Connection ~ 2300 3650
+Wire Wire Line
+	1900 3750 2200 3750
+Connection ~ 2200 3750
+Wire Wire Line
+	2800 6050 2100 6050
+Wire Wire Line
+	2100 6050 2100 3850
+Connection ~ 2100 3850
+Wire Wire Line
+	2100 3850 2800 3850
+Wire Wire Line
+	3600 5350 3800 5350
+Wire Wire Line
+	3800 5350 3800 3150
+Connection ~ 3800 3150
+Wire Wire Line
+	3800 3150 3950 3150
 $EndSCHEMATC
